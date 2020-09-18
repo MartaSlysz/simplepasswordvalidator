@@ -1,17 +1,17 @@
-#Simple password validator
+# Simple password validator
 
-##Table of contents
+## Table of contents
 
 * [General info](#general-info)
 * [User stories](#user-stories)
 * [Technologies](#technologies)
 
-##General info
+## General info
 It's backend warmup :fire: challenge from [practice.dev](https://practice.dev/challenges/2).
 
-##User stories
+## User stories
 As a user, I can validate the password.
 
-##Technologies used
+## Technologies used
 * SpringBoot 2.3.4
 * JAVA 13
