@@ -6,5 +6,5 @@ import lombok.Setter;
 @Setter
 @Getter
 public class ValidationResult {
-    boolean valid;
+    boolean isValid;
 }
