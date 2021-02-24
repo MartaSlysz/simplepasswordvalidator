@@ -14,9 +14,9 @@ public class ValidationController {
 
     private final ValidationService validationService;
 
-    @PostMapping(value = "/validate")
+    @PostMapping(value = "/validate", consumes = "application/json", produces = "application/json")
     @ResponseStatus(HttpStatus.OK)
-    public ValidationResult validatePassword(PasswordValues passwordValues){
+    public ValidationResult validatePassword(@RequestBody PasswordValues passwordValues){
         return validationService.validatePassword(passwordValues);
     }
 }
